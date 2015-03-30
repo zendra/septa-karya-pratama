@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>        
+        <title><?php echo $title; ?></title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="index follow">
+        
+        <!--Favicon-->
+        <link rel="icon" href="<?php echo base_url(); ?>assets/images/favicon/favicon.ico">
+        <!--CSS-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/owl.carousel.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/owl.transitions.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/prettyPhoto.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/home.css" rel="stylesheet">
+        <link href="<?php echo base_url(); ?>assets/css/responsive.css" rel="stylesheet">
+
+        <!--Script-->
+        <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+        <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		<script src="http://maps.googleapis.com/maps/api/js"></script>
+		<script>
+			function initialize() 
+			{
+			  var mapProp = 
+			  {
+				center:new google.maps.LatLng(-7.2633194,112.7692121),
+				zoom:5,
+				mapTypeId:google.maps.MapTypeId.ROADMAP
+			  };
+			  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+    </head>
+    <body>
