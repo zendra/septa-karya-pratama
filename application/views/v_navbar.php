@@ -13,13 +13,13 @@
 
             <div class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
-                <li><a href="<?php echo site_url() . "/tentang" ?>">TENTANG</a></li>   
-                <li><a href="<?php echo site_url() . "/bisnis" ?>">BISNIS</a></li>   
-                <li><a href="<?php echo site_url() . "/tatakelola" ?>">TATA KELOLA</a></li>   
-                <li><a href="<?php echo site_url() . "/hubunganinvestor" ?>">HUBUNGAN INVESTOR</a></li>   
-                <li><a href="<?php echo site_url() . "/keberlanjutan" ?>">KEBERLANJUTAN</a></li>  
-                <li><a href="<?php echo site_url() . "/proyek" ?>">PROYEK</a></li>   
-                <li><a href="<?php echo site_url() . "/hrc" ?>">HRC</a></li>       
+                <li><a href="<?php echo site_url('tentang'); ?>">TENTANG</a></li>   
+                <li><a href="<?php echo site_url('bisnis'); ?>">BISNIS</a></li>   
+                <li><a href="<?php echo site_url('tatakelola'); ?>">TATA KELOLA</a></li>   
+                <li><a href="<?php echo site_url('hubunganinvestor'); ?>">HUBUNGAN INVESTOR</a></li>   
+                <li><a href="<?php echo site_url('keberlanjutan'); ?>">KEBERLANJUTAN</a></li>  
+                <li><a href="<?php echo site_url('proyek'); ?>">PROYEK</a></li>   
+                <li><a href="<?php echo site_url('hrc'); ?>">HRC</a></li>       
 				<li><a href="<?php echo site_url('contactus'); ?>">HUBUNGI KAMI</a></li>  				
             </ul> 
             </div>

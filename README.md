@@ -2,6 +2,10 @@
 
 This is an online repository for [Septa Karya Pratama][skp] company profile website. This project is migrated from [BitBucket][bitbucket] repository.
 
+# Source
+
+- [CodeIgniter 2.2][ci]
+
 # Credits
 
 This project is made for [Septa Karya Pratama][skp].
@@ -16,3 +20,4 @@ This project is licensed using GNU GPL v2 unless otherwise noted. This license c
 [skp]: http://septa.bidjim.com
 [skpimg]: http://septa.bidjim.com/assets/images/logo.png
 [gpl]: https://github.com/yowanda6361/septa-karya-pratama/blob/master/LICENSE
+[ci]: http://www.codeigniter.com
