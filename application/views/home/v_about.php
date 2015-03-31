@@ -9,31 +9,12 @@
         <div class="row">
             <div class="col-sm-6 wow fadeInLeft">                
                 <h3 class="column-title">Kantor Kami</h3>
-                <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/skp/kantor.jpg" alt="Kantor Septa Karya Pratama">
+                <img class="img-responsive" src="<?php echo base_url('assets/images/skp/kantor.jpg'); ?>" alt="Kantor Septa Karya Pratama">
             </div>
 
             <div class="col-sm-6 wow fadeInRight">
                 <h3 class="column-title">Penjelasan Singkat</h3>
                 <p>Sebagai salah satu Jasa Desain, SKP telah dan selalu berusaha untuk menerapkan strategi dan pendekatan yang tepat dalam melangkah. Krisis ekonomi yang berkepanjangan yang lalu kami yakini sebagai tantangan yang akan segera teratasi dengan baik.</p>
-<!--
-                <div class="row">
-                    <div class="col-sm-6">
-                        <ul class="nostyle">
-                            <li><i class="fa fa-check-square"></i> Respon Cepat</li>
-                            <li><i class="fa fa-check-square"></i> Memiliki Desain yang terbaik</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-sm-6">
-                        <ul class="nostyle">
-                            <li><i class="fa fa-check-square"></i> Bahan - Bahan Berkualitas Terbaik</li>
-                            
-                        </ul>
-                    </div>
-                </div>
-                -->
-                <a class="btn btn-primary" href="#">Learn More</a>
-
             </div>
         </div>
     </div>

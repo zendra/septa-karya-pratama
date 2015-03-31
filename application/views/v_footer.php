@@ -68,20 +68,18 @@
                 <br />
                 <a href="<?php echo base_url() . "user_guide"; ?>" target="_blank">CodeIgniter Offline User Guide</a>
                 <br />
-                <a href="http://docs.getfuelcms.com/" target="_blank">Fuel CMS Online User Guide</a>
-                <br />
             </div>
         </div>
     </div>
 </section><!--/#work-process-->
 </body>
 <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<script src="<?php echo base_url(); ?>assets/js/owl.carousel.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/mousescroll.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/smoothscroll.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/jquery.prettyPhoto.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/jquery.isotope.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/jquery.inview.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/wow.min.js"></script>
-<script src="<?php echo base_url(); ?>assets/js/home.js"></script>
+<script src="<?php echo base_url('assets/js/owl.carousel.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/mousescroll.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/smoothscroll.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/jquery.prettyPhoto.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/jquery.isotope.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/jquery.inview.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/wow.min.js'); ?>"></script>
+<script src="<?php echo base_url('assets/js/home.js'); ?>"></script>
 </html>

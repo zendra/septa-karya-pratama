@@ -12,14 +12,14 @@
         <!--CSS-->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
-        <link href="<?php echo base_url(); ?>assets/css/custom.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/animate.min.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/owl.carousel.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/owl.transitions.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/prettyPhoto.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/home.css" rel="stylesheet">
-        <link href="<?php echo base_url(); ?>assets/css/responsive.css" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/custom.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/font-awesome.min.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/animate.min.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/owl.carousel.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/owl.transitions.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/prettyPhoto.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/home.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/responsive.css'); ?>" rel="stylesheet">
 
         <!--Script-->
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
@@ -31,20 +31,6 @@
           <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-		<script src="http://maps.googleapis.com/maps/api/js"></script>
-		<script>
-			function initialize() 
-			{
-			  var mapProp = 
-			  {
-				center:new google.maps.LatLng(-7.2633194,112.7692121),
-				zoom:5,
-				mapTypeId:google.maps.MapTypeId.ROADMAP
-			  };
-			  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
-			}
-			google.maps.event.addDomListener(window, 'load', initialize);
-		</script>
+        <![endif]-->		
     </head>
     <body>

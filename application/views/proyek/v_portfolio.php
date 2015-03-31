@@ -1,9 +1,7 @@
 <section id="portfolio">
     <div class="container">
         <div class="section-header">
-            <h2 class="section-title text-center wow fadeInDown">Our Works</h2>
-            <!--<p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            -->
+            <h2 class="section-title text-center wow fadeInDown">Our Works</h2>         
         </div>
 
         <div class="text-center">
@@ -18,88 +16,88 @@
         <div class="portfolio-items">
             <div class="portfolio-item creative">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/01.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/01.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 1</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
 
             <div class="portfolio-item corporate portfolio">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/02.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/02.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 2</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
 
             <div class="portfolio-item creative">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/03.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/03.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 3</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
 
             <div class="portfolio-item corporate">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/04.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/04.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 4</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
 
             <div class="portfolio-item creative portfolio">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/05.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/05.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 5</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
 
             <div class="portfolio-item corporate">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/06.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/06.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 5</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
 
             <div class="portfolio-item creative portfolio">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/07.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/07.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 7</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
 
             <div class="portfolio-item corporate">
                 <div class="portfolio-item-inner">
-                    <img class="img-responsive" src="<?php echo base_url(); ?>assets/images/portfolio/08.jpg" alt="">
+                    <img class="img-responsive" src="<?php echo base_url('assets/images/portfolio/08.jpg'); ?>" alt="">
                     <div class="portfolio-info">
                         <h3>Portfolio Item 8</h3>
                         Lorem Ipsum Dolor Sit
-                        <a class="preview" href="<?php echo base_url(); ?>assets/images/portfolio/full.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                        <a class="preview" href="<?php echo base_url('assets/images/portfolio/full.jpg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
                     </div>
                 </div>
             </div><!--/.portfolio-item-->
