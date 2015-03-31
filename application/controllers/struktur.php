@@ -14,11 +14,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class Struktur extends CI_Controller {
 
-    public function index() {
-        $head['title'] = "Latar Belakang";
+    function __construct() {
+        parent::__construct();
+        $head['title'] = "Struktur Organisasi";
+        $this->load->vars($head);
         $this->load->view('v_head', $head);
         $this->load->view('v_navbar');
-        $this->load->view('struktur/v_header');
+    }
+    
+    public function index() {        
+        $this->load->view('struktur/v_struktur');
         $this->load->view('v_footer');
     }
 }

@@ -14,11 +14,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class LatarBelakang extends CI_Controller {
 
-    public function index() {
+    function __construct() {
+        parent::__construct();
         $head['title'] = "Latar Belakang";
+        $this->load->vars($head);
         $this->load->view('v_head', $head);
         $this->load->view('v_navbar');
-        $this->load->view('latarbelakang/v_header');
+    }
+    
+    public function index() {        
         $this->load->view('v_footer');
     }
 }

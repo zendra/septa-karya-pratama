@@ -14,11 +14,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 class VisiMisi extends CI_Controller {
 
-    public function index() {
-        $head['title'] = "Latar Belakang";
+    function __construct() {
+        parent::__construct();
+        $head['title'] = "Visi dan Misi";
+        $this->load->vars($head);
         $this->load->view('v_head', $head);
         $this->load->view('v_navbar');
-        $this->load->view('visimisi/v_header');
+    }
+    
+    public function index() {        
+        $this->load->view('visimisi/v_visimisi');
         $this->load->view('v_footer');
     }
 }

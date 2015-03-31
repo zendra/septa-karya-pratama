@@ -19,7 +19,7 @@
                 <li><a href="<?php echo site_url('visimisi'); ?>">VISI MISI</a></li>   
                 <li><a href="<?php echo site_url('proyek'); ?>">PROYEK</a></li>   
                 <li><a href="<?php echo site_url('kelebihan'); ?>">KELEBIHAN KAMI</a></li>       
-		<li><a href="<?php echo site_url('contactus'); ?>">HUBUNGI KAMI</a></li>  				
+		<li><a href="<?php echo site_url('hubungi'); ?>">HUBUNGI KAMI</a></li>  				
             </ul> 
             </div>
         </div><!--/.container-->

@@ -18,7 +18,6 @@ class Kelebihan extends CI_Controller {
         $head['title'] = "Latar Belakang";
         $this->load->view('v_head', $head);
         $this->load->view('v_navbar');
-        $this->load->view('kelebihan/v_header');
         $this->load->view('v_footer');
     }
 }
