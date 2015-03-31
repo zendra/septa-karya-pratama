@@ -19,7 +19,7 @@ class proyek extends CI_Controller {
         $this->load->view('v_head', $head);
         $array_navbar['active'] = 'proyek';
         $this->load->view('v_navbar', $array_navbar);
-        $this->load->view('proyek/v_header');
+        $this->load->view('v_header');
         $this->load->view('proyek/v_portfolio');
         $this->load->view('v_footer');
     }

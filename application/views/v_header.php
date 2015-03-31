@@ -1,17 +1,21 @@
-<div class="container-fluid">
-    <div class="row">
-        <div class="col-lg-12">
-            <nav class="navbar">
-                <div class="container">
-                    <div class="collapse navbar-collapse">
-                        <ul class="nav navbar-nav">
-                            <?php foreach ($array_navigation as $name => $value) { ?>
-                                <li><a href="<?php echo $value; ?>"><?php echo $name; ?></a></li> 
-                            <?php } ?>
-                        </ul> 
-                    </div>
-                </div><!--/.container-->
-            </nav><!--/nav-->
+<?php if (isset($array_navigation)) { ?>
+    <div class="container-fluid separate">
+        <div class="row">
+            <div class="col-lg-offset-1 col-lg-10">            
+                <ul class="nav nav-pills">
+                    <?php foreach ($array_navigation as $name => $value) { ?>
+                        <li id="<?php echo str_replace(' ', '', $name); ?>"><a href="<?php echo $value; ?>"><?php echo strtoupper($name); ?></a></li> 
+                        <?php } ?>
+                </ul> 
+            </div>
         </div>
     </div>
-</div>
+
+    <script>
+        $(document).ready(function () {
+    <?php if (isset($active)) { ?>
+                $("#<?php echo str_replace(' ', '', $active); ?>").addClass("active");
+    <?php } ?>
+        });
+    </script>
+<?php } ?>

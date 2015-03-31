@@ -3,7 +3,7 @@
         <div class="col-lg-offset-1 col-lg-10 wow fadeInUp">
             <h1>Hubungi Kami</h1>
         </div>
-        <form role="form" class="wow fadeInLeft">
+        <form role="form" class="wow fadeInUp">
             <div class="col-lg-offset-1 col-lg-5">
                 <div class="form-group">
                     <label for="nama">Nama*</label>
