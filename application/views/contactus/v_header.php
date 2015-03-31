@@ -1,6 +1,3 @@
-<div class="banner-page">
-	<img class="img-responsive" src="<?php echo base_url(); ?>assets/images/sites/keberlanjutan.jpg"/>
-</div>
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">

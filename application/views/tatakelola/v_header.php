@@ -1,7 +1,3 @@
-
-<div class="banner-page">
-    <img src="<?php echo base_url(); ?>assets/images/sites/tatakelola.jpg"/>
-</div>
 <div class="container-fluid">
     <div class="row">
         <div class="col-lg-12">
