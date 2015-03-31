@@ -9,7 +9,9 @@ class Hubungi extends CI_Controller {
         $head['username'] = "";
         $this->load->vars($head);
         $this->load->view('v_head', $head);
-        $this->load->view('v_navbar');
+        
+        $array_navbar['active'] = 'hubungi';
+        $this->load->view('v_navbar', $array_navbar);
         
         $array_navigation = array(
             'Alamat' => site_url('hubungi/alamat'),

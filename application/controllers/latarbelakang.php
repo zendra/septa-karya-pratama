@@ -19,7 +19,9 @@ class LatarBelakang extends CI_Controller {
         $head['title'] = "Latar Belakang";
         $this->load->vars($head);
         $this->load->view('v_head', $head);
-        $this->load->view('v_navbar');
+        
+        $array_navbar['active'] = 'latarbelakang';
+        $this->load->view('v_navbar', $array_navbar);
     }
     
     public function index() {        

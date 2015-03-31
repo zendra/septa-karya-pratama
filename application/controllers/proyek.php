@@ -17,7 +17,8 @@ class proyek extends CI_Controller {
     public function index() {
         $head['title'] = "Proyek";
         $this->load->view('v_head', $head);
-        $this->load->view('v_navbar');
+        $array_navbar['active'] = 'proyek';
+        $this->load->view('v_navbar', $array_navbar);
         $this->load->view('proyek/v_header');
         $this->load->view('proyek/v_portfolio');
         $this->load->view('v_footer');

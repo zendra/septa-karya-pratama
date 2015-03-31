@@ -19,7 +19,9 @@ class VisiMisi extends CI_Controller {
         $head['title'] = "Visi dan Misi";
         $this->load->vars($head);
         $this->load->view('v_head', $head);
-        $this->load->view('v_navbar');
+        
+        $array_navbar['active'] = 'visimisi';
+        $this->load->view('v_navbar', $array_navbar);
     }
     
     public function index() {        

@@ -19,7 +19,9 @@ class Struktur extends CI_Controller {
         $head['title'] = "Struktur Organisasi";
         $this->load->vars($head);
         $this->load->view('v_head', $head);
-        $this->load->view('v_navbar');
+        
+        $array_navbar['active'] = 'struktur';
+        $this->load->view('v_navbar', $array_navbar);
     }
     
     public function index() {        

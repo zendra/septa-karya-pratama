@@ -19,7 +19,9 @@ class tentang extends CI_Controller {
         $head['title'] = "Tentang Kami";
         $this->load->vars($head);
         $this->load->view('v_head', $head);
-        $this->load->view('v_navbar');
+        
+        $array_navbar['active'] = 'tentang';
+        $this->load->view('v_navbar', $array_navbar);
     }
 
     public function index() {
