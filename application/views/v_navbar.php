@@ -8,7 +8,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="<?php echo site_url(); ?>"><img src="<?php echo base_url(); ?>assets/images/logo.png" alt="SKP"></a>
+                
+                <a class="navbar-brand" href="<?php echo site_url(); ?>">
+                    <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="SKP">
+                </a>
             </div>
 
             <div class="collapse navbar-collapse navbar-right">
@@ -27,5 +30,17 @@
 </header><!--/header-->
 
 <script>
-    $("#<?php echo $active; ?>").addClass("active");
+    $(document).ready(function () {
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $('nav').addClass('shrink');
+            } else {
+                $('nav').removeClass('shrink');
+            }
+        });
+
+<?php if (isset($active)) { ?>
+            $("#<?php echo $active; ?>").addClass("active");
+<?php } ?>
+    });
 </script>

@@ -20,6 +20,7 @@
         <link href="<?php echo base_url('assets/css/prettyPhoto.css'); ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/css/home.css'); ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/css/responsive.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/shrink.css'); ?>" rel="stylesheet">
 
         <!--Script-->
         <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>

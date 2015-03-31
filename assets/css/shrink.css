@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 1, 2015, 4:35:37 AM
+    Author     : Yowanda
+*/
+@media (min-width: 1200px){
+    nav.navbar.shrink {
+        min-height: 35px;
+    }
+
+    nav.shrink a {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    nav.shrink .navbar-brand {
+        height: 0px !important; 
+    }
+
+    nav.shrink .navbar-brand > img{
+        height: 30px;
+        width: auto;
+    }
+}
+
