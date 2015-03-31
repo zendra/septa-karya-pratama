@@ -73,7 +73,6 @@
     </div>
 </section><!--/#work-process-->
 </body>
-<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script src="<?php echo base_url('assets/js/owl.carousel.min.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/mousescroll.js'); ?>"></script>
 <script src="<?php echo base_url('assets/js/smoothscroll.js'); ?>"></script>
