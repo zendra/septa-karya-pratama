@@ -25,7 +25,6 @@
         <!--Script-->
         <script src="<?php echo base_url('assets/jquery/jquery-1.11.2.min.js'); ?>"></script>
         <script src="<?php echo base_url('assets/js/bootstrap.min.js'); ?>"></script>
-        <script src="http://maps.googleapis.com/maps/api/js"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
