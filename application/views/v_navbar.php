@@ -10,7 +10,7 @@
                 </button>
                 
                 <a class="navbar-brand" href="<?php echo site_url(); ?>">
-                    <img src="<?php echo base_url(); ?>assets/images/logo.png" alt="SKP">
+                    <img src="<?php echo base_url('assets/images/logo.png'); ?>" alt="SKP">
                 </a>
             </div>
 
