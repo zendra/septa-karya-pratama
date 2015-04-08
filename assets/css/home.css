@@ -941,3 +941,43 @@ ul.nostyle i {
 }
 
 .ellipse{background-image:url(../images/ellipse.png);}
+
+.post_content
+{
+	margin: 1px 0px 25px; 
+	padding: 0px; 
+	border: 0px; 
+	outline: 0px; 
+	vertical-align: baseline; 
+	line-height: 25px; 
+	font-family: robotolight; 
+	font-size: 15px; 
+	text-align: justify; 
+	background: transparent;"
+}
+
+.align-left
+{
+	text-align: left; 
+}
+
+.div_center_align
+{
+	position:absolute; 
+	top:50%;
+}
+
+.visi
+{
+	margin-top: 13px;
+}
+
+.item_list
+{
+	padding-bottom: 10px;
+}
+
+td
+{
+	padding: 10px;
+}
