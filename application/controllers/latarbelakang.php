@@ -24,7 +24,8 @@ class LatarBelakang extends CI_Controller {
         $this->load->view('v_navbar', $array_navbar);
     }
     
-    public function index() {        
+    public function index() {    
+        $this->load->view('latarbelakang/v_latarbelakang');
         $this->load->view('v_footer');
     }
 }
