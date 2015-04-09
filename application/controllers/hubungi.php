@@ -24,14 +24,14 @@ class Hubungi extends CI_Controller {
     }
 
     public function index() {
-        $this->_array_header['active'] = array_keys($this->_array_navigation)[0];
+        //$this->_array_header['active'] = array_keys($this->_array_navigation)[0];
         $this->load->view('v_header', $this->_array_header);
         $this->load->view('contactus/v_contact_us');
         $this->load_footer();
     }
 
     public function alamat() {
-        $this->_array_header['active'] = array_keys($this->_array_navigation)[1];
+        //$this->_array_header['active'] = array_keys($this->_array_navigation)[1];
         $this->load->view('v_header', $this->_array_header);
         $this->load->view('contactus/v_address');
         $this->load_footer();
