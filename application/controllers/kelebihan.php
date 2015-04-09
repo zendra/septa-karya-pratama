@@ -15,9 +15,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Kelebihan extends CI_Controller {
 
     public function index() {
-        $head['title'] = "Latar Belakang";
+        $head['title'] = "Kelebihan Kami";
         $this->load->view('v_head', $head);
         $array_navbar['active'] = 'kelebihan';
+        $this->load->view('kelebihankami/v_kelebihankami');
         $this->load->view('v_navbar', $array_navbar);
         $this->load->view('v_footer');
     }
