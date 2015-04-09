@@ -17,22 +17,45 @@
         <div class="portfolio-items">
             <div class="portfolio-item booth">
                 <div class="portfolio-item-inner">
-					<div class="post_content align-left">
-						<div>
-							<h1>Booth</h1>
+					<img class="img-responsive" src="<?php echo base_url('assets/images/proyek/booth/image.jpeg'); ?>" alt="">
+						<div class="portfolio-info">
+							<h3>Booth Pameran Telkom Indonesia Grand City</h3>
+							Lorem Ipsum Dolor Sit
+							<a class="preview" href="<?php echo base_url('assets/images/proyek/booth/image.jpeg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
 						</div>
-						<ul>
-							<li class="item_list">Booth Pameran Telkom Indonesia Grand City</li>
-							<li class="item_list">Booth Pameran Kiswire Grand City Surabaya</li>
-							<li class="item_list">Booth Pameran SMKN 1 Kudus</li>
-							<li class="item_list">Booth Pameran Bakti Pendidikan Djarum Foundation</li>
-							<li class="item_list">Booth Pameran BNI Monas, Jakarta</li>
-							<li class="item_list">Booth Pameran Honda Grand City</li>
-						<ul>
-					</div>
                 </div>
             </div><!--/.portfolio-item-->
-
+			<div class="portfolio-item booth">
+                <div class="portfolio-item-inner">
+					<img class="img-responsive" src="<?php echo base_url('assets/images/proyek/booth/image_1.jpeg'); ?>" alt="">
+						<div class="portfolio-info">
+							<h3>Booth Pameran Telkom Indonesia Grand City</h3>
+							Lorem Ipsum Dolor Sit
+							<a class="preview" href="<?php echo base_url('assets/images/proyek/booth/image_1.jpeg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+						</div>
+                </div>
+            </div><!--/.portfolio-item-->
+			<div class="portfolio-item booth">
+                <div class="portfolio-item-inner">
+					<img class="img-responsive" src="<?php echo base_url('assets/images/proyek/booth/image_2.jpeg'); ?>" alt="">
+						<div class="portfolio-info">
+							<h3>Booth Pameran Telkom Indonesia Grand City</h3>
+							Lorem Ipsum Dolor Sit
+							<a class="preview" href="<?php echo base_url('assets/images/proyek/booth/image_2.jpeg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+						</div>
+                </div>
+            </div><!--/.portfolio-item-->
+			<div class="portfolio-item booth">
+                <div class="portfolio-item-inner">
+					<img class="img-responsive" src="<?php echo base_url('assets/images/proyek/booth/image_3.jpeg'); ?>" alt="">
+						<div class="portfolio-info">
+							<h3>Booth Pameran Telkom Indonesia Grand City</h3>
+							Lorem Ipsum Dolor Sit
+							<a class="preview" href="<?php echo base_url('assets/images/proyek/booth/image_3.jpeg'); ?>" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+						</div>
+                </div>
+            </div><!--/.portfolio-item-->
+			
             <div class="portfolio-item corporate event">
                 <div class="portfolio-item-inner">
                    <div class="post_content align-left">
